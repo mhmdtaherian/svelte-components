@@ -12,14 +12,23 @@
 .m-4 {
     margin: 1rem
 }
+.inline {
+    display: inline
+}
 .flex {
     display: flex
+}
+.h-64 {
+    height: 16rem
 }
 .w-56 {
     width: 14rem
 }
 .w-80 {
     width: 20rem
+}
+.w-96 {
+    width: 24rem
 }
 .max-w-md {
     max-width: 28rem
@@ -54,8 +63,15 @@
     --tw-bg-opacity: 1;
     background-color: rgb(229 231 235 / var(--tw-bg-opacity))
 }
+.bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity))
+}
 .p-6 {
     padding: 1.5rem
+}
+.p-2 {
+    padding: 0.5rem
 }
 .p-4 {
     padding: 1rem
@@ -64,8 +80,16 @@
     font-size: 1.125rem;
     line-height: 1.75rem
 }
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
 .font-bold {
     font-weight: 700
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 .text-red-600 {
     --tw-text-opacity: 1;
